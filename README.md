@@ -58,16 +58,54 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Auth set
+```bash
+# auth 모듈 생성
+$ nest g module auth
 
-## Stay in touch
+# auth controller 생성
+$ nest g controller auth --no-spec
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+# auth service 생성
+$ nest g service auth --no-spec
+```
 
-## License
+## Test like this
+<img src="static/request_ex.jpg" alt="request sample" />
 
-Nest is [MIT licensed](LICENSE).
+
+```
+use postman
+select method
+setting parameter
+authorization Type : Bearer Token
+```
+
+
+
+
+
+[comment]: <> (Table)
+#Header
+##Header
+###Header
+####Header
+#####Header
+######Header
+[comment]: <> (line)
+___
+[comment]: <> (font)
+this is **header**
+<br/>
+this is *italic* font
+<br/>
+this is ~~strikethrough~~
+[comment]: <> (link)
+Click [here](https://github.com/hahyeji)
+
+[comment]: <> (table)
+|Header|Description|
+|--|--|
+?
+안되는디
